@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.panel-footer {
+    background-color: #1fb58a;
+    height: auto;
+    color: white;
+}
+
+.panel-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.panel-footer div > a:hover{
+    text-decoration: underline;
+}
+
+span a {
+    margin-left: 5px;
+}
