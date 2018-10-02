@@ -21,3 +21,9 @@
 span a {
     margin-left: 5px;
 }
+
+.container-fluid  .row{
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
