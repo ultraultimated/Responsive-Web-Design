@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+span[class="col-md-11"] {
+    padding: 0;
+}
+
+#spy {
+    position: sticky;
+    top: 0%;
+    height: 100vh;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#spy a {
+    text-decoration: none;
+    font-size: 19px;;
+}
+
+#spy ul {
+   list-style-type: none;
+   padding-top: 200%
+}
+
+#spy li {
+    margin-top: 40%;
+}
+
+#spy li a:hover {
+    background-color: transparent;
+}
+
+#spy li:hover::after {
+    width: 100%;
+}
+
+#one a {
+    color: #1fb58a;
+}
+
+#one::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #1fb58a;
+    transition: width .3s;
+}
+
+#two a {
+    color: #b51f1f;
+}
+
+#two::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #b51f1f;
+    transition: width .3s;
+}
+
+#three a {
+    color: #1f8bb5;
+}
+
+#three::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #1f8bb5;
+    transition: width .3s;
+}
+
+#four a {
+    color: #b51fa1;
+}
+
+#four::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #b51fa1;
+    transition: width .3s;
+}
+
+#all, #sports, #gatherings, #celebrations {
+    height: 100vh;
+    padding-top: 10%;
+}
+
+#all{
+    background-image: linear-gradient(to right, white , #1fb58b5d);
+}
+#sports {
+    background-image: linear-gradient(to right, white , #b51f1f67);
+}
+#gatherings {
+    background-image: linear-gradient(to right, white , #1f8bb530);
+}
+#celebrations {
+    background-image: linear-gradient(to right, white , #b51fa130);
+}
+
+.centre {
+    margin: 0 auto;
+    width: 70%; 
+    top: 15%;
+    padding: 1%;
+}
+
+.centre{
+    border-radius: 12px;
+}
+
+#all .centre {
+    background-color: #1fb58b5d;
+}
+
+#sports .centre {
+    background-color: #b51f1f67;
+} 
+
+#gatherings .centre {
+    background-color: #1f8bb530;
+} 
+
+#celebrations .centre {
+    background-color: #b51fa130;
+}
+
+img {
+    max-height: inherit;
+    max-width: inherit;
+}

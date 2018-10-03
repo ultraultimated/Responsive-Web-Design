@@ -1,0 +1,78 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/import.js"></script>
+    <script src="js/googlemap.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contactstyle.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+<div class="container">
+    <h1>Contact Us</h1>
+    <h2>Address</h2>
+    <p>5609 Administration building</p>
+    <p>Near visat cross roads</p>
+    <p>Chandkheda Ahmedabad-382431</p>
+    <p>Phone:(+91)23412567</p>
+    <h2>Directions</h2>
+    <div class="row">
+        <div class="col-lg-5" id="map-display">
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwt8L2ZBOAqzXerZbZUMLcyJyULYJGc0U&callback=initMap">
+            </script>
+        </div>
+
+        <div class="col-lg-6">
+
+            <form>
+                <fieldset>
+                    <legend>Reach Us</legend>
+                        <div class="form-group row">
+                            <div class="col-lg-3">
+                                <label for="Name">Your Name</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-3">
+                                <label for="Email">Your Email</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="email" class="form-control" id="Email">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-lg-3">
+                                <label for="Message">Your message</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <textarea id="Message" class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-info text-center">Submit</button>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="direction-inline">
+        <h2>Office Hours</h2>
+        <p>Monday-Friday : 10AM - 5PM</p>
+        <p>Saturday-sunday: closed</p>
+    </div>
+
+</div>
+<div id="footer"></div>
+</body>
+
+</html>
