@@ -90,6 +90,10 @@ span[class="col-md-11"] {
     transition: width .3s;
 }
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: transparent;
+}
+
 #all, #sports, #gatherings, #celebrations {
     height: 100vh;
     padding-top: 10%;
