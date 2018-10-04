@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Connect With us!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/import.js"></script>
+    <script src="js/googlemap.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+</head>
+<body>
+<div id="navbar"></div>
+<div class="container-fluid">
+    <div class="img-container img-header row">
+        <h1>Have an Query?</h1>
+        <h1>We are here to help!</h1>
+        <h1>Feel free to contact US!!</h1>
+
+    </div>
+    <div class="row col-lg-12">
+        <div class="col-lg-6">
+            <h1>Get In Touch</h1>
+            <h2>Fill out this form quickly and we will be in touch with lightning speed. </h2>
+            <form>
+                <div class="form-group">
+
+                    <div class="col-lg-10">
+                        <input type="text" id="name" class="form-control input-lg" required placeholder="Name">
+                    </div>
+                    <div class="col-lg-10">
+                        <input type="email" id="email" class="form-control input-lg" required placeholder="Your Email address">
+                    </div>
+                    <div class="col-lg-10">
+                        <textarea class="form-control input-lg" rows="5" id="message" placeholder="Your query goes here!"></textarea>
+                    </div>
+                    <div class="col-lg-10">
+                        <button type="button" class="btn btn-primary">Fire!</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4">
+            <h2>Address</h2>
+            <p>5609 Administration building</p>
+            <p>Near visat cross roads</p>
+            <p>Chandkheda Ahmedabad-382431</p>
+            <p> <span class="glyphicon glyphicon-earphone"> (<span>+</span>91) 234-12-567</span></p>
+            <p> <span class="glyphicon glyphicon-envelope"> <a href="#">inquiry@uname.com</a></span></p>
+            <h2>Office Hours</h2>
+            <p>Monday-Friday : 10AM - 5PM</p>
+            <p>Saturday-sunday: closed</p>
+        </div>
+    </div>
+    <h1 class="text-center">Find us on Map</h1>
+    <div class="col-lg-9" id="map-display">
+
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwt8L2ZBOAqzXerZbZUMLcyJyULYJGc0U&callback=initMap">
+        </script>
+    </div>
+
+</div>
+<div id="footer"></div>
+
+
+</body>
+</html>

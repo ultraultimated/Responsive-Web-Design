@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.image-container{
+    height: 100vh;
+    z-index: 1;
+    background: url("../Images/university.jpg") no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+
+
+}
+.login-form {
+    width: 40%;
+    height: 100px;
+    background: white;
+    position: relative;
+    -webkit-animation: mymove 3s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+}
