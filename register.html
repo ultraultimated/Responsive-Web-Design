@@ -6,66 +6,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registerstyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/import.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/registerstyle.css">
+    <script src="js/register.js"></script>
+
 
 </head>
 
 <body>
 
+
+<section id="register">
     <div class="container-fluid">
-
-
-        <section id="login">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="form-wrap">
-                            <h1>Register</h1>
-                            <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="off">
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="mobNo">Mobile Number</label>
-                                    <input type="number" name="mobNo" id="mobNo" class="form-control" placeholder="Mobile Number">
-                                </div>
-                                <div class="form-group">
-                                    <label for="mobNo">Email</label>
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="username">Username</label>
-                                    <input type="text" name="username" id="username" class="form-control" placeholder="Username">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password">Password</label>
-                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-                                </div>
-                                <div class="form-group">
-                                    <label for="password">Confirm Password</label>
-                                    <input type="confPassword" name="confPassword" id="confPassword" class="form-control" placeholder="Confirm Password">
-                                </div>
-                                
-                                <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register">
-                            </form>
-                            <hr>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-wrap">
+                    <h1 class = "form-heading">Register</h1>
+                    <form role="form" action="javascript:" method="post" id="login-form" autocomplete="off" name="registrationForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
                         </div>
-                    </div>
-                    <!-- /.col-xs-12 -->
+                        <div class="form-group">
+                            <label for="mobNo">Mobile Number</label>
+                            <input type="number" name="mobNo" id="mobNo" class="form-control"
+                                   placeholder="Mobile Number" minlength="10" required>
+                            <div id = "mobile-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobNo">Email</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" required maxlength="30">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" class="form-control"
+                                   placeholder="Username" maxlength="20" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="form-control"
+                                   placeholder="Password" required minlength="8" maxlength="20">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Confirm Password</label>
+                            <input type="password" name="confPassword" id="confPassword" class="form-control"
+                                   placeholder="Confirm Password" required minlength="8" maxlength="20">
+                            <div id="password-message"></div>
+                        </div>
+
+                        <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register" onclick="validateForm()">
+                    </form>
+                    <hr>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
-        </section>
-
-        
-
+            <!-- /.col-xs-12 -->
+        </div>
+        <!-- /.row -->
     </div>
+    <!-- /.container -->
+</section>
 
 
 </body>

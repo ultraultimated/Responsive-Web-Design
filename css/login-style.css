@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#login .container-fluid {
+    background: url("../Images/university.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+
+#login .form-container {
+    background: white;
+    color: #1fb58a;
+}
+
+@keyframes mymove {
+    from {
+        top: -400px;
+    }
+    to {
+        top: 20vh;
+    }
+}
+
+#login .form-container {
+    justify-items: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+    top: -400px;
+    position: absolute;
+    animation-delay: 1s;
+    left: 30%;
+    border-radius: 5px;
+    color: #212121;
+    background-color: #eeeeee;
+    padding: 0 5% 3%;
+
+}
+
+#login .btn-custom {
+    color: #fff;
+    background-color: #1fb58a;
+}
+
+#login .btn-custom:hover,
+#login .btn-custom:focus {
+    color: #fff;
+}
+
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#login .form-heading {
+    color: #1fb58a;
+    font-size: 4vh;
+    padding-bottom: 5%;
+}
+
+#forgot-password .btn-custom {
+    color: #fff;
+    background-color: #1fb58a;
+}
+
+#login .forget {
+    padding-top: 3%;
+    font-size: 2vh;
+    text-align: center;
+    display: block;
+
+}
+
+#login .checkbox>.label{
+    color: #6d6d6d;
+}
+#message{
+    padding: 0 5%;
+}
+
+
+/* for xs- devices */
+@media (max-width: 576px) {
+
+    #login .form-container {
+        width: 80%;
+        left: 10%;
+
+    }
+}
