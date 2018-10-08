@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+
+}
+
+.header-image {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+#about-university .main-heading {
+    text-transform: capitalize;
+    font-size: 5vh;
+    color: #3D9970;
+    font-weight: 700;
+}
+
+#about-university .justify {
+    text-align: justify;
+}
+
+#about-university .color-main {
+    color: #1fb58a;
+}
+
+#about-university .about-para-style {
+    font-size: 4vh;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+#about-fact-section .container-fluid {
+    background: #1fb58a;
+    color: white;
+    padding:5% 0;
+}
+
+#about-fact-section .fact-top-heading {
+    font-size: 5vh;
+    padding-top: 3%;
+}
+
+#about-fact-section .fact-bottom-heading {
+    font-size: 4vh;
+}
+
+#about-fact-section .fact-para-style {
+    font-size: 2vh;
+}
+
+#about-fact-section hr {
+    width: 30%;
+}
+#about-fact-section .fact-figure{
+    padding: 5% 0;
+}
+#about-fact-section .row{
+    padding:0;
+    margin:0;
+}
+
+#attraction-carousel .container-fluid{
+    margin: 5% 0;
+    color: #1fb58a;
+    background: white;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+
+
+#attraction-carousel .why-banner{
+    font-size: 6vh;
+    color: teal;
+    padding-bottom: 3%;
+}
+
+#attraction-carousel .attraction-inner-title{
+    font-size: 4vh;
+    color: #3D9970;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#attraction-carousel .attraction-info{
+
+    text-align: justify;
+    font-size: 3vh;
+    padding-right: 10%;
+}
+
+#attraction-carousel .carousel-control.left, #attraction-carousel .carousel-control.right{
+    background-image: none;
+}
+
+.glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-chevron-right {
+    color: #212121;
+}
+#attraction-carousel .img-responsive{
+    padding-left: 20%;
+}
+
+@media (max-width: 991px){
+    #attraction-carousel .attraction-info{
+        padding-top: 10%;
+        text-align: justify;
+        font-size: 3vw;
+    }
+    #attraction-carousel .img-responsive{
+        padding-left: 0;
+    }
+    #attraction-carousel .attraction-info{
+
+
+        padding-right: 0;
+    }
+    #about-university .about-para-style {
+        font-size: 3vh;
+    }
+}
