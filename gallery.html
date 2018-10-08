@@ -15,42 +15,34 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
 
     <div id="navbar"></div>
 
-    <div class="container-fluid" id="main-body">
+    <div class="container-fluid" id="gallery-body">
 
 
         <div class="row">
             <div class="navbar navbar-link">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav nav-pills">
-                                <li>
-                                    <a href="#section1">All</a>
-                                </li>
-                                <li>
-                                    <a href="#section2">Sports</a>
-                                </li>
-                                <li>
-                                    <a href="#section3">Gatherings</a>
-                                </li>
-                                <li>
-                                    <a href="#section4">Celebrations</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                <div id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#section1" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="section1">All</a>
+                        </li>
+                        <li>
+                            <a href="#section2" data-toggle="collapse" role="button" aria-expanded="false"
+                                aria-controls="section2">Sports</a>
+                        </li>
+                        <li>
+                            <a href="#section3" data-toggle="collapse" role="button" aria-expanded="false"
+                                aria-controls="section3">Gatherings</a>
+                        </li>
+                        <li>
+                            <a href="#section4" data-toggle="collapse" role="button" aria-expanded="false"
+                                aria-controls="section4">Celebrations</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -58,44 +50,173 @@
         <div class="row">
             <div class="container-fluid" id="main-content">
 
-                <div id="section1" class="container-fluid">
+                <div id="section1" class="collapse in container-fluid card card-body">
                     <h2>All</h2>
-                    <div id="imgContent">
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg">
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg"><img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"
-                            src="img/basketball.jpg">
+                    <div class="imgContent">
+
+                        <div class="row">
+                            
+                            <figure>
+                                <img class="big-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                    alt="First slide" src="img/basketball.jpg">
+                                <div class="img-caption text-center">
+                                    <p>this is demo text</p>
+                                </div>
+                            </figure>
+                        </div>
+
+                        <div class="row">
+                            <figure>
+                                <img class="portrait" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                    alt="First slide" src="img/basketball.jpg">
+                                <div class="img-caption text-center">
+                                    <p>this is demo text</p>
+                                </div>
+                            </figure>
+                            <div class="portrait">
+                               
+                                <figure>
+                                    <img class="small-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                        alt="First slide" src="img/basketball.jpg">
+                                    <div class="img-caption text-center">
+                                        <p>this is demo text</p>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div class="portrait">
+                                <figure>
+                                    <img class="small-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                        alt="First slide" src="img/basketball.jpg">
+                                    <div class="img-caption text-center">
+                                        <p>this is demo text</p>
+                                    </div>
+                                </figure>
+                                <figure>
+                                    <img class="small-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                        alt="First slide" src="img/basketball.jpg">
+                                    <div class="img-caption text-center">
+                                        <p>this is demo text</p>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <figure>
+                                <img class="portrait" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                    alt="First slide" src="img/basketball.jpg">
+                                <div class="img-caption text-center">
+                                    <p>this is demo text</p>
+                                </div>
+                            </figure>
+                            <div class="big-square">
+                                <figure>
+                                    <img class="landscape" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                        alt="First slide" src="img/basketball.jpg">
+                                    <div class="img-caption text-center">
+                                        <p>this is demo text</p>
+                                    </div>
+                                </figure>
+                                <div class="row">
+                                    <figure>
+                                        <img class="small-image" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                            alt="First slide" src="img/basketball.jpg">
+                                        <div class="img-caption text-center">
+                                            <p>this is demo text</p>
+                                        </div>
+                                    </figure>
+                                    <figure>
+                                        <img class="small-image" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
+                                            alt="First slide" src="img/basketball.jpg">
+                                        <div class="img-caption text-center">
+                                            <p>this is demo text</p>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-                <hr>
 
-                <div id="section2" class="container-fluid">
+
+                <div id="section2" class="collapse container-fluid card card-body">
                     <h2>Sports</h2>
-
+                    <div class="imgContent">
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                    </div>
 
                 </div>
 
-                <hr>
 
-                <div id="section3" class="container-fluid">
+
+                <div id="section3" class="collapse container-fluid card card-body">
                     <h2>Gatherings</h2>
 
-
+                    <div class="imgContent">
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                    </div>
                 </div>
 
-                <hr>
 
-                <div id="section4" class="container-fluid">
+
+                <div id="section4" class="collapse container-fluid card card-body">
                     <h2>Celebrations</h2>
-
+                    <div class="imgContent">
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                        <figure>
+                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
+                            <div class="img-caption text-center">
+                                <p>this is demo text</p>
+                            </div>
+                        </figure>
+                    </div>
 
                 </div>
 
