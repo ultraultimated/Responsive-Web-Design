@@ -210,10 +210,6 @@
     padding: 2vh 5vw;
 }
 
-#gallery-body .even-row {
-    /* background-color: #eee; */
-}
-
 #gallery-body .flex-img-container>.flex-img-container {
     padding: 0;
 }
