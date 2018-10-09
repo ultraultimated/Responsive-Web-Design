@@ -3,7 +3,7 @@
     font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 h1{
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 .container-fluid {
     margin: 0;
@@ -33,13 +33,12 @@ h1{
 }
 
 #about-university .color-main {
-    color: #1fb58a;
+    color: #212121;
 }
 
 #about-university .about-para-style {
-    font-size: 4vh;
-    padding-bottom: 5%;
-    padding-top: 2%;
+    font-size: 3vh;
+    padding: 2% 5% 5% 5%;
 }
 
 #about-fact-section .container-fluid {
@@ -82,24 +81,26 @@ h1{
 
 
 #attraction-carousel .why-banner{
-    font-size: 6vh;
-    color: teal;
-    padding-bottom: 3%;
+    font-size: 5vh;
+    color: #3D9970;
+    padding-bottom: 1%;
 }
 
 #attraction-carousel .attraction-inner-title{
     font-size: 4vh;
     color: #3D9970;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 #attraction-carousel .attraction-info{
 
     text-align: justify;
     font-size: 3vh;
-    padding-right: 10%;
+    padding-right: 12%;
+    color: #212121;
 }
+
 
 #attraction-carousel .carousel-control.left, #attraction-carousel .carousel-control.right{
     background-image: none;
@@ -109,24 +110,33 @@ h1{
     color: #212121;
 }
 #attraction-carousel .img-responsive{
-    padding-left: 20%;
+    padding-left: 25%;
 }
 
 @media (max-width: 991px){
     #attraction-carousel .attraction-info{
         padding-top: 10%;
         text-align: justify;
-        font-size: 3vw;
+        font-size: 2vh;
     }
     #attraction-carousel .img-responsive{
         padding-left: 0;
     }
     #attraction-carousel .attraction-info{
-
-
-        padding-right: 0;
+    padding-right: 0;
     }
     #about-university .about-para-style {
         font-size: 3vh;
     }
+    #attraction-carousel .why-banner{
+        font-size: 3vh;
+
+    }
+    #attraction-carousel .attraction-inner-title {
+        font-size: 2vh;
+    }
+    #about-university .about-para-style {
+        font-size: 2vh;
+    }
+
 }

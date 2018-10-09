@@ -90,7 +90,9 @@
     padding: 0 5%;
 }
 
-
+body{
+    padding:0;
+}
 /* for xs- devices */
 @media (max-width: 576px) {
 

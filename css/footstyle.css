@@ -3,10 +3,20 @@
     font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.panel {
+    margin: 0;
+}
+
 .panel-footer {
     background-color: #1fb58a;
     height: auto;
     color: white;
+    border-radius: 5px;
+}
+
+.panel-footer .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .panel-footer a {
@@ -18,12 +28,7 @@
     text-decoration: underline;
 }
 
-span a {
-    margin-left: 5px;
+span .fa {
+    margin-left: 10px;
 }
 
-.container-fluid  .row{
-    margin-right: -15px;
-    margin-left: -15px;
-
-}

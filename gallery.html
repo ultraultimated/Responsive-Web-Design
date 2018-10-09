@@ -7,10 +7,14 @@
     <title>Gallery</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/gallerystyle.css">
+    <link rel="stylesheet" href="css/navstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footstyle.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/import.js"></script>
-    <link rel="stylesheet" href="css/gallerystyle.css">
+    <script src="js/gallery.js"></script>
 
 
 </head>
@@ -28,19 +32,16 @@
                 <div id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="#section1" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="section1">All</a>
+                            <a id="link1" href="#section1" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section1">All</a>
                         </li>
                         <li>
-                            <a href="#section2" data-toggle="collapse" role="button" aria-expanded="false"
-                                aria-controls="section2">Sports</a>
+                            <a id="link2" href="#section2" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section2">Sports</a>
                         </li>
                         <li>
-                            <a href="#section3" data-toggle="collapse" role="button" aria-expanded="false"
-                                aria-controls="section3">Gatherings</a>
+                            <a id="link3" href="#section3" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section3">Gatherings</a>
                         </li>
                         <li>
-                            <a href="#section4" data-toggle="collapse" role="button" aria-expanded="false"
-                                aria-controls="section4">Celebrations</a>
+                            <a id="link4" href="#section4" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section4">Celebrations</a>
                         </li>
                     </ul>
                 </div>
@@ -48,179 +49,41 @@
         </div>
 
         <div class="row">
-            <div class="container-fluid" id="main-content">
 
-                <div id="section1" class="collapse in container-fluid card card-body">
-                    <h2>All</h2>
-                    <div class="imgContent">
-
-                        <div class="row">
-                            
-                            <figure>
-                                <img class="big-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                    alt="First slide" src="img/basketball.jpg">
-                                <div class="img-caption text-center">
-                                    <p>this is demo text</p>
-                                </div>
-                            </figure>
-                        </div>
-
-                        <div class="row">
-                            <figure>
-                                <img class="portrait" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                    alt="First slide" src="img/basketball.jpg">
-                                <div class="img-caption text-center">
-                                    <p>this is demo text</p>
-                                </div>
-                            </figure>
-                            <div class="portrait">
-                               
-                                <figure>
-                                    <img class="small-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                        alt="First slide" src="img/basketball.jpg">
-                                    <div class="img-caption text-center">
-                                        <p>this is demo text</p>
-                                    </div>
-                                </figure>
-                            </div>
-                            <div class="portrait">
-                                <figure>
-                                    <img class="small-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                        alt="First slide" src="img/basketball.jpg">
-                                    <div class="img-caption text-center">
-                                        <p>this is demo text</p>
-                                    </div>
-                                </figure>
-                                <figure>
-                                    <img class="small-square" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                        alt="First slide" src="img/basketball.jpg">
-                                    <div class="img-caption text-center">
-                                        <p>this is demo text</p>
-                                    </div>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <figure>
-                                <img class="portrait" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                    alt="First slide" src="img/basketball.jpg">
-                                <div class="img-caption text-center">
-                                    <p>this is demo text</p>
-                                </div>
-                            </figure>
-                            <div class="big-square">
-                                <figure>
-                                    <img class="landscape" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                        alt="First slide" src="img/basketball.jpg">
-                                    <div class="img-caption text-center">
-                                        <p>this is demo text</p>
-                                    </div>
-                                </figure>
-                                <div class="row">
-                                    <figure>
-                                        <img class="small-image" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                            alt="First slide" src="img/basketball.jpg">
-                                        <div class="img-caption text-center">
-                                            <p>this is demo text</p>
-                                        </div>
-                                    </figure>
-                                    <figure>
-                                        <img class="small-image" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide"
-                                            alt="First slide" src="img/basketball.jpg">
-                                        <div class="img-caption text-center">
-                                            <p>this is demo text</p>
-                                        </div>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+            <div id="section1" class="collapse in container-fluid">
+                <!-- <h2>All</h2> -->
+                <div class="imgContent container-fluid">
+                    <div id="galleryAll"></div>
                 </div>
-
-
-
-                <div id="section2" class="collapse container-fluid card card-body">
-                    <h2>Sports</h2>
-                    <div class="imgContent">
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                    </div>
-
-                </div>
-
-
-
-                <div id="section3" class="collapse container-fluid card card-body">
-                    <h2>Gatherings</h2>
-
-                    <div class="imgContent">
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-
-
-
-                <div id="section4" class="collapse container-fluid card card-body">
-                    <h2>Celebrations</h2>
-                    <div class="imgContent">
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                        <figure>
-                            <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="img/basketball.jpg">
-                            <div class="img-caption text-center">
-                                <p>this is demo text</p>
-                            </div>
-                        </figure>
-                    </div>
-
-                </div>
-
             </div>
+
+
+
+            <div id="section2" class="collapse container-fluid">
+                <!-- <h2>Sports</h2> -->
+                <div class="imgContent container-fluid">
+                    <div id="gallerySports"></div>
+                </div>
+            </div>
+
+
+
+            <div id="section3" class="collapse container-fluid">
+                <!-- <h2>Gatherings</h2> -->
+                <div class="imgContent container-fluid">
+                    <div id="galleryGatherings"></div>
+                </div>
+            </div>
+
+
+
+            <div id="section4" class="collapse container-fluid">
+                <!-- <h2>Celebrations</h2> -->
+                <div class="imgContent container-fluid">
+                    <div id="galleryCelebrations"></div>
+                </div>
+            </div>
+
         </div>
     </div>
     <div id="footer"></div>
