@@ -157,9 +157,10 @@
     opacity: 0.7;
 }
 
-#gallery-body button {
+#gallery-body #section1 button {
     color: white;
     background: #189c77;
+    margin-bottom: 5vh;
 }
 
 #gallery-body .flex-img-container {
@@ -167,11 +168,11 @@
     /* height: auto; */
     justify-content: center;
     /* max-height: 480px; */
-    padding: 35px 25px;
+    padding: 2vh 5vw;
 }
 
 #gallery-body .even-row {
-    background-color: #eee;
+    /* background-color: #eee; */
 }
 
 #gallery-body .flex-img-container>.flex-img-container {
