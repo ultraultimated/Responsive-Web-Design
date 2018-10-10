@@ -9,14 +9,14 @@
 	-------------------------------------------------- */
 
 #register {
-    padding-top: 5%;
-    display: flex;
-    justify-items: center;
     align-items: center;
     background: url("../Images/register.jpg") no-repeat;
     background-size: cover;
+    display: flex;
     height: 100vh;
     padding-bottom: 5%;
+    padding-top: 5%;
+    justify-items: center;
 }
 
 #register label {
@@ -30,16 +30,16 @@
 }
 
 #register .form-wrap {
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
 }
 
 #register h1 {
     color: #1fb58a;
     font-size: 18px;
-    text-align: center;
     font-weight: bold;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 #register .form-group {
@@ -56,23 +56,23 @@
 }
 
 #register .checkbox.show:before {
-    content: '\e013';
     color: #1fb58a;
+    content: '\e013';
+    font-family: 'Glyphicons Halflings';
     font-size: 17px;
     margin: 1px 0 0 3px;
-    position: absolute;
     pointer-events: none;
-    font-family: 'Glyphicons Halflings';
+    position: absolute;
 }
 
 #register .checkbox .character-checkbox {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    border-radius: 3px;
     border: 1px solid #ccc;
-    vertical-align: middle;
+    border-radius: 3px;
+    cursor: pointer;
     display: inline-block;
+    height: 25px;
+    vertical-align: middle;
+    width: 25px;
 }
 
 #register .checkbox .label {
@@ -87,9 +87,9 @@
 }
 
 #register .forget {
+    display: block;
     font-size: 13px;
     text-align: center;
-    display: block;
 }
 #register .form-heading{
     font-size: 4vh;
@@ -103,8 +103,8 @@
 }
 
 .btn-custom {
-    color: #fff;
     background-color: #1fb58a;
+    color: #fff;
 }
 
 .btn-custom:hover,
@@ -116,8 +116,8 @@
 
     #register > .container-fluid {
 
-        width: 80%;
         left: 10%;
+        width: 80%;
     }
 
     #register {
