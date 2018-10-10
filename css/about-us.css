@@ -152,9 +152,8 @@ h1 {
 
 @media (min-width: 992px) and (max-width: 1400px) {
 
-    #attraction-carousel .img-center {
-
-        margin-top: 8%;
+    #attraction-carousel .attraction-info{
+        font-size: 2vh;
     }
 
 }
