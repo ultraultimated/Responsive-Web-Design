@@ -9,10 +9,11 @@
     <title>Gallery</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/gallerystyle.css">
-    <link rel="stylesheet" href="css/navstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navstyle.css">
     <link rel="stylesheet" href="css/footstyle.css">
+    <link rel="stylesheet" href="css/gallerystyle.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/import.js"></script>
@@ -34,16 +35,16 @@
                 <div id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a id="link1" href="#section1" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section1">All</a>
+                            <a id="link1" class="link-active" href="#section1" data-toggle="collapse" role="button" onclick="doCollapse(this)" aria-controls="section1">All</a>
                         </li>
                         <li>
-                            <a id="link2" href="#section2" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section2">Sports</a>
+                            <a id="link2" href="#section2" data-toggle="collapse" role="button" onclick="doCollapse(this)" aria-controls="section2">Sports</a>
                         </li>
                         <li>
-                            <a id="link3" href="#section3" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section3">Gatherings</a>
+                            <a id="link3" href="#section3" data-toggle="collapse" role="button" onclick="doCollapse(this)" aria-controls="section3">Gatherings</a>
                         </li>
                         <li>
-                            <a id="link4" href="#section4" data-toggle="collapse" role="button" onclick="doCollapse()" aria-controls="section4">Celebrations</a>
+                            <a id="link4" href="#section4" data-toggle="collapse" role="button" onclick="doCollapse(this)" aria-controls="section4">Celebrations</a>
                         </li>
                     </ul>
                 </div>

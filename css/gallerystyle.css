@@ -5,6 +5,7 @@
 
 #gallery-body {
     margin-top: 50px;
+    padding:0 !important;
 }
 
 #gallery-body a{
@@ -29,6 +30,13 @@
     background: transparent;
 }
 
+#gallery-body #myNavbar > ul > li::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;   
+}
+
 #gallery-body #myNavbar > ul > li::after {
     content: '';
     display: block;
@@ -38,27 +46,47 @@
     transition: width .3s;
 }
 
+#gallery-body #myNavbar .link-active {
+    background: #1fb58a;
+    color: white;
+}
+
 #gallery-body #myNavbar > ul > li:hover::after {
     width: 100%;
 }
 
 #gallery-body #myNavbar a {
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+#gallery-body #myNavbar a.link-active:hover{
+    background: #189c77;
+    color: white;
+}
+
+#gallery-body #section2 .flex-img-container, #gallery-body #section3 .flex-img-container {
+    margin-bottom: 5vh;
+}
+
+#gallery-body #section4 .flex-img-container{
+    margin-bottom: 1vh;
+}
+
+
 #gallery-body #section1 h2, #gallery-body #section2 h2, #gallery-body #section3 h2, #gallery-body #section4 h2 {
     background-color: transparent;
-    border-bottom: 3px solid #1fb58a;
+    border-bottom: 2px solid #1fb58a;
     color: #189c77;
     padding-left: 15px;
     padding-bottom: 8px;
+    font-size: 2vw;
 }
 
 #gallery-body .imgContent {
-    margin-top: 20px;
+    margin-top: -15px;
     margin-bottom: 5px;
     display: flex;
     justify-items: center;
@@ -149,17 +177,29 @@
 #gallery-body .modal.and.carousel {
     position: fixed; 
     top: 8vh;
-  }
+}
+
+#gallery-body .modal.and.carousel .carousel-inner img {
+    width: auto;
+    height: 60vh;
+}
+
+#gallery-body .modal.and.carousel a.left, #gallery-body .modal.and.carousel a.right {
+    height: 80vh;
+    width: 5vw;
+}
 
 #gallery-body button.close, #gallery-body span.glyphicon{
-    font-size: 50px;
+    font-size: 2.5vw;
     color: white;
     opacity: 0.7;
 }
 
-#gallery-body button {
+#gallery-body #section1 button {
     color: white;
     background: #189c77;
+    margin-bottom: 5vh;
+    font-size: 1vw;
 }
 
 #gallery-body .flex-img-container {
@@ -167,11 +207,7 @@
     /* height: auto; */
     justify-content: center;
     /* max-height: 480px; */
-    padding: 35px 25px;
-}
-
-#gallery-body .even-row {
-    background-color: #eee;
+    padding: 2vh 5vw;
 }
 
 #gallery-body .flex-img-container>.flex-img-container {
@@ -187,7 +223,6 @@
     display: flex;
     flex: 2;
 }
-
 
 #gallery-body .flex-3 {
     display: flex;

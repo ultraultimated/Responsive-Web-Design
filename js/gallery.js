@@ -5,7 +5,7 @@ $(function(){
     $("#galleryCelebrations").load("gallery-celebrations.html");
   });
 
-function doCollapse() {
+function doCollapse(clickedLink) {
     
     var allCollapsibleDivs = document.getElementsByClassName("collapse");
 
@@ -13,4 +13,11 @@ function doCollapse() {
         element.classList.remove("in");
     }
 
+    if( document.getElementById("link1").classList.contains("link-active") ) { document.getElementById("link1").classList.remove("link-active"); }
+    if( document.getElementById("link2").classList.contains("link-active") ) { document.getElementById("link2").classList.remove("link-active"); }
+    if( document.getElementById("link3").classList.contains("link-active") ) { document.getElementById("link3").classList.remove("link-active"); }
+    if( document.getElementById("link4").classList.contains("link-active") ) { document.getElementById("link4").classList.remove("link-active"); }
+
+    clickedLink.classList.add("link-active");
+    
 }
