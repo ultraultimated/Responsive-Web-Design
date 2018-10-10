@@ -12,10 +12,6 @@
     font-size: 1.2em;
     position: relative;
 }
-
-#gallery-body .padding {
-    height: 53px;
-}
  
 #gallery-body .row.stick{
     position: sticky;    
