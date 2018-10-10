@@ -33,7 +33,7 @@
 
     animation: mymove 1s;
     animation-fill-mode: forwards;
-    top: -400px;
+    top: -500px;
     position: absolute;
     animation-delay: 1s;
     left: 30%;
@@ -91,7 +91,7 @@
 }
 
 body{
-    padding:0;
+    padding:0 !important;
 }
 /* for xs- devices */
 @media (max-width: 576px) {

@@ -5,6 +5,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registration page for the students of UoU">
+    <meta name="author" content="Developed by students of University of Utah">
     <title>Register</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/registerstyle.css">
@@ -28,7 +30,7 @@
             <div class="col-xs-12">
                 <div class="form-wrap">
                     <h1 class = "form-heading">Register</h1>
-                    <form role="form" action="javascript:" method="post" id="login-form" autocomplete="off" name="registrationForm">
+                    <form role="form"  method="post" id="login-form" autocomplete="off" name="registrationForm">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
@@ -61,7 +63,7 @@
                             <div id="password-message"></div>
                         </div>
 
-                        <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register" onclick="validateForm()">
+                        <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register" onclick="return validateForm()">
                     </form>
                     <hr>
                 </div>

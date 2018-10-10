@@ -17,16 +17,18 @@ function showMessage()
 
     if(email.value === "")
     {
-        console.log("in null");
+        document.getElementById("message").style.color = "red";
         document.getElementById("message").innerHTML = "Email field cannot be empty";
     }
     else if(!email_valid)
     {
+        document.getElementById("message").style.color = "red";
         document.getElementById("message").innerHTML = "Invalid email address!";
     }
     else
     {
         document.getElementById("modal-main").style.display = "none";
+        document.getElementById("message").style.color = "Green";
         document.getElementById("message").innerHTML = "Email with credentials has been sent to your registered email id";
         document.getElementById("modal-footer").style.display = "none";
     }

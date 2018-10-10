@@ -3,21 +3,20 @@
     font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight: 700;
+    font-weight: 700!important;
 }
 
 #main-header .container-fluid {
     height: 30%;
     background: url("../Images/contact-us.jpg") no-repeat;
     background-size: cover;
-    margin-top: 3%;
     margin-bottom: 5%;
     padding: 5% 0;
 
 }
 
 #main-header .header-image-text {
-    font-size: 4vw;
+    font-size: 3vw;
     color: white;
 }
 
@@ -27,7 +26,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #get-in-touch .get-in-touch-form-heading {
-    color: #42493d;
+    color: #3D9970;
     padding: 0 5%;
     font-size: 5vh;
 
@@ -39,7 +38,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #get-in-touch .contact-heading{
-    color: #1fb58a;
+    color: #3D9970;
 
 }
 
@@ -51,8 +50,13 @@ h1,h2,h3,h4,h5,h6{
 #get-in-touch .margin-bottom{
     margin-bottom: 3%;
 }
+#get-in-touch .get-in-touch-form-heading-2{
+    font-size: 4vh;
+    color: #3D9970;
+    padding: 0 5%;
+}
 #map .map-heading{
-    color: #1fb58a;
+    color: #3D9970;
     padding: 1% 3%;
 
 }
@@ -75,7 +79,10 @@ h1,h2,h3,h4,h5,h6{
         height: 30vh;
     }
     #get-in-touch .get-in-touch-form-heading{
-        font-size: 4vh;
+        font-size: 3vh;
+    }
+    #get-in-touch .get-in-touch-form-heading-2{
+        font-size: 2vh;
     }
     #get-in-touch .contact-padding{
         padding-top: 5%;
