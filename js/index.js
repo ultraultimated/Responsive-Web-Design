@@ -1,3 +1,5 @@
+// For News Container
+
 $('#news .news-container img, #news .news-container h3').mouseover(function(){
     var parent = $(this).parent();
     parent.children('img').addClass('zoom');
@@ -10,14 +12,29 @@ $('#news .news-container img, #news .news-container h3').mouseout(function(){
     parent.children('h3').removeClass('textColor');
 });
 
-$('#events .events-container img, #events .events-container h3').mouseover(function(){
-    var parent = $(this).parent();
+// For Event Container
+
+$('#events .events-container img').mouseover(function(){
+    var parent = $(this).parent('.event-column');
     parent.children('img').addClass('zoom');
-    parent.children('h3').addClass('textColor');
+    parent.find('h3').addClass('textColor');
 });
 
-$('#events .events-container img, #events .events-container h3').mouseout(function(){
-    var parent = $(this).parent();
+$('#events .events-container img').mouseout(function(){
+    var parent = $(this).parent('.event-column');
     parent.children('img').removeClass('zoom');
-    parent.children('h3').removeClass('textColor');
+    parent.find('h3').removeClass('textColor');
 });
+
+$('#events .events-container h3').mouseover(function(){
+    var parent = $(this).parent('.content').parent('.event-column');
+    parent.children('img').addClass('zoom');
+    parent.find('h3').addClass('textColor');
+});
+
+$('#events .events-container h3').mouseout(function(){
+    var parent = $(this).parent('.content').parent('.event-column');
+    parent.children('img').removeClass('zoom');
+    parent.find('h3').removeClass('textColor');
+});
+

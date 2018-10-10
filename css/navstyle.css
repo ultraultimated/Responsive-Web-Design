@@ -3,6 +3,11 @@
     font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
+.navbar-default .nav-logo {
+    height: 30px;
+    width: 100px;
+} 
+
 .navbar-default {
     font-weight: 500;
     font-size: 1.2em;
