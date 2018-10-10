@@ -4,16 +4,35 @@
 }
 
 #gallery-body {
-    margin-top: 50px;
     padding:0 !important;
 }
 
 #gallery-body a{
     color: black;
     font-size: 1.2em;
+    position: relative;
 }
 
+#gallery-body .padding {
+    height: 53px;
+}
+ 
+#gallery-body .row.stick{
+    position: sticky;    
+    top: 0;
+    z-index: 1;
+}
+
+#gallery-body .row > .navbar {
+    border: 0;
+}
+
+
 #gallery-body #myNavbar {
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> b06ec6e71494bb92f12756fca06ddd00d2a46a6d
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0.25px 5px #ccc;
@@ -83,6 +102,10 @@
     font-size: 2vw;
     padding-bottom: 8px;
     padding-left: 15px;
+}
+
+#gallery-body #section1 h2 {
+    margin-top: 40px;
 }
 
 #gallery-body .imgContent {
@@ -176,7 +199,7 @@
 
 #gallery-body .modal.and.carousel {
     position: fixed; 
-    top: 8vh;
+    background: rgba(0,0,0,0.6);
 }
 
 #gallery-body .modal.and.carousel .carousel-inner img {
@@ -190,7 +213,7 @@
     border-radius: 5px;
     bottom: 60px;
     color: ghostwhite;
-    font-size: 2.5vw;
+    font-size: 30px;
     font-weight: 500;
     left: 0;
     margin: 0;
