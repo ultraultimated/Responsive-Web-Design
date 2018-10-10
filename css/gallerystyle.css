@@ -185,7 +185,7 @@
 }
 
 #gallery-body .modal.and.carousel a.left, #gallery-body .modal.and.carousel a.right {
-    height: 100vh;
+    height: 80vh;
     width: 5vw;
 }
 
@@ -223,7 +223,6 @@
     display: flex;
     flex: 2;
 }
-
 
 #gallery-body .flex-3 {
     display: flex;
