@@ -8,6 +8,7 @@ function showPassword() {
     }
 }
 
+
 function showMessage()
 {
     var email = document.getElementById("recovery-email");
