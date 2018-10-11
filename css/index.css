@@ -68,17 +68,17 @@ img {
 }
 
 #index-carousel .item-1 {
-    background: url('/img/nav-carousel/about-uni.jpg') no-repeat center center;
+    background: url('../img/nav-carousel/about-uni.jpg') no-repeat center center;
     background-size: cover;
 }
 
 #index-carousel .item-2 {
-    background: url('/img/nav-carousel/library.jpg') no-repeat center center;
+    background: url('../img/nav-carousel/library.jpg') no-repeat center center;
     background-size: cover;
 }
 
 #index-carousel .item-3 {
-    background: url('/img/nav-carousel/carousel_gallery.jpg') no-repeat center center;
+    background: url('../img/nav-carousel/carousel_gallery.jpg') no-repeat center center;
     background-size: cover;
 }
 

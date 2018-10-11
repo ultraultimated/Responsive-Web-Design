@@ -6,7 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="9c909c2a-6799-46a4-af49-38cc53613914" name="Default Changelist" comment="ABout us and footer commited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/gallerystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gallerystyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/Innovation.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/about-masthead.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/about-slider-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/award.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/contact-us.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/leadership-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/red-rays-full-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/register.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/research_facility.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/teacher.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/trophy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/university.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/login-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/registerstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/registerstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/student-faculty-ratio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about-us/student-faculty-ratio.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -213,42 +231,46 @@
     <session id="-261067726">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="17" />
-          <entry key="html" value="23" />
+          <entry key="css" value="21" />
+          <entry key="html" value="27" />
+          <entry key="jpg" value="8" />
           <entry key="js" value="8" />
+          <entry key="png" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="17" />
-          <entry key="HTML" value="23" />
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="27" />
+          <entry key="Image" value="10" />
           <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="525" />
-          <entry key="html" value="310" />
+          <entry key="css" value="550" />
+          <entry key="html" value="334" />
           <entry key="js" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="525" />
-          <entry key="HTML" value="310" />
+          <entry key="CSS" value="550" />
+          <entry key="HTML" value="334" />
           <entry key="JavaScript" value="44" />
         </counts>
       </usages-collector>
@@ -256,11 +278,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/login-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/registerstyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -289,10 +329,12 @@
       <find>celbrationsModal</find>
       <find>row</find>
       <find>sect</find>
+      <find>Images</find>
     </findStrings>
     <replaceStrings>
       <replace>register</replace>
       <replace>allModal</replace>
+      <replace>img/about-us/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -322,24 +364,24 @@
         <option value="$PROJECT_DIR$/navbar.html" />
         <option value="$PROJECT_DIR$/js/register.js" />
         <option value="$PROJECT_DIR$/register.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/contact.css" />
         <option value="$PROJECT_DIR$/css/footstyle.css" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/navstyle.css" />
-        <option value="$PROJECT_DIR$/css/registerstyle.css" />
         <option value="$PROJECT_DIR$/js/gallery.js" />
         <option value="$PROJECT_DIR$/js/googlemap.js" />
-        <option value="$PROJECT_DIR$/about-us.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/css/about-us.css" />
-        <option value="$PROJECT_DIR$/css/login-style.css" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/gallery-all.html" />
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/css/gallerystyle.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/about-us.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/contact.css" />
+        <option value="$PROJECT_DIR$/css/login-style.css" />
+        <option value="$PROJECT_DIR$/css/registerstyle.css" />
       </list>
     </option>
   </component>
@@ -386,11 +428,6 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-            <path>
-              <item name="fet-mini-project-1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -427,18 +464,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\neelp\Desktop\fet-git\fet-mini-project-1\img\about-us" />
+      <recent name="C:\Users\neelp\Downloads\fet-mini-project-1-home\fet-mini-project-1\css" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="C:\Users\neelp\Downloads\fet-mini-project\fet-mini-project\css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\neelp\Downloads\fet-mini-project-1-home\fet-mini-project-1\css" />
       <recent name="C:\Users\neelp\Downloads\fet-mini-project-1-home\fet-mini-project-1" />
       <recent name="C:\Users\neelp\Downloads\fet-mini-project-1-home\fet-mini-project-1\js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\neelp\Downloads\fet-mini-project-1-home\fet-mini-project-1\css" />
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="C:\Users\neelp\Downloads\fet-mini-project\fet-mini-project\css" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.login.html">
     <configuration name="about-us.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/fet-mini-project-1/about-us.html">
       <method v="2" />
     </configuration>
@@ -481,11 +519,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.contact.html" />
+        <item itemvalue="JavaScript Debug.about-us.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.gallery.html" />
-        <item itemvalue="JavaScript Debug.contact.html" />
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.about-us.html" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +554,8 @@
       <workItem from="1539155663297" duration="1590000" />
       <workItem from="1539167488231" duration="2050000" />
       <workItem from="1539170608770" duration="3478000" />
-      <workItem from="1539230811895" duration="8090000" />
+      <workItem from="1539230811895" duration="9425000" />
+      <workItem from="1539243290030" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="ABout us and footer commited">
       <created>1538507613329</created>
@@ -536,7 +575,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109652000" />
+    <option name="totallyTimeSpent" value="111510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,8 +590,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6048387" visible="true" weight="0.20969442" />
-      <window_info id="Structure" order="1" sideWeight="0.3951613" side_tool="true" visible="true" weight="0.20969442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6032258" visible="true" weight="0.20969442" />
+      <window_info id="Structure" order="1" sideWeight="0.3967742" side_tool="true" visible="true" weight="0.20969442" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -613,44 +652,13 @@
     <entry file="file://$PROJECT_DIR$/css/contactstyle.css" />
     <entry file="file://$PROJECT_DIR$/css/aboutstyle.css" />
     <entry file="file://$PROJECT_DIR$/about.html" />
-    <entry file="file://$PROJECT_DIR$/Images/contact-us.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/loginstyle.css" />
     <entry file="file://$PROJECT_DIR$/contact us.html" />
     <entry file="file://$PROJECT_DIR$/css/contact-us.css" />
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/contact.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/footstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="14" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="190" column="35" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/registerstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -696,20 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -717,24 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/login-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -763,10 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="41" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="53" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,10 +774,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/nav-carousel/about-uni.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/nav-carousel/carousel_gallery.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/nav-carousel/library.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Images/about-slider-background.jpg" />
+    <entry file="file://$PROJECT_DIR$/Images/contact-us.jpg" />
+    <entry file="file://$PROJECT_DIR$/Images/leadership-background.jpg" />
+    <entry file="file://$PROJECT_DIR$/Images/red-rays-full-2.png" />
+    <entry file="file://$PROJECT_DIR$/Images/trophy.png" />
+    <entry file="file://$PROJECT_DIR$/Images/university.jpg" />
+    <entry file="file://$PROJECT_DIR$/Images/Innovation.jpg" />
+    <entry file="file://$PROJECT_DIR$/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="833">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="95" column="95" selection-start-line="95" selection-start-column="95" selection-end-line="95" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/registerstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
