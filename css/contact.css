@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main-header .container-fluid {
-    background: url("../Images/contact-us.jpg") no-repeat;
+    background: url("../img/contact/contact-us.jpg") no-repeat;
     background-size: cover;
     height: 30%;
     margin-bottom: 5%;
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
         height: 30vh;
     }
 
-    #get-in-touch .get-in-touch-form-heading, #get-in-touch .contact-heading, #map .map-heading,  {
+    #get-in-touch .get-in-touch-form-heading, #get-in-touch .contact-heading, #map .map-heading  {
         font-size: 3vh;
     }
 

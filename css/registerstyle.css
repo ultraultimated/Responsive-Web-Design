@@ -10,7 +10,7 @@
 
 #register {
     align-items: center;
-    background: url("../Images/register.jpg") no-repeat;
+    background: url("../img/register/register.jpg") no-repeat;
     background-size: cover;
     display: flex;
     height: 100vh;
