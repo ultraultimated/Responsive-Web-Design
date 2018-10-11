@@ -9,7 +9,7 @@
     <title>Gallery</title>
 
     <!-- Apply favicon besides the title -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,70 +24,73 @@
 </head>
 
 <body>
-<div id="navbar"></div>
-<div class="container-fluid" id="gallery-body">
-    <div class="row">
+    <div id="navbar"></div>
 
-
-        <div class="row stick">
-            <div class="navbar navbar-link">
-                <div id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a id="link1" class="link-active" href="#section1" data-toggle="collapse" role="button"
-                               onclick="doCollapse(this)" aria-controls="section1">All</a>
-                        </li>
-                        <li>
-                            <a id="link2" href="#section2" data-toggle="collapse" role="button"
-                               onclick="doCollapse(this)" aria-controls="section2">Sports</a>
-                        </li>
-                        <li>
-                            <a id="link3" href="#section3" data-toggle="collapse" role="button"
-                               onclick="doCollapse(this)" aria-controls="section3">Gatherings</a>
-                        </li>
-                        <li>
-                            <a id="link4" href="#section4" data-toggle="collapse" role="button"
-                               onclick="doCollapse(this)" aria-controls="section4">Celebrations</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+    <div class="container-fluid" id="gallery-body">
         <div class="row">
 
-            <div id="section1" class="collapse in container-fluid">
-                <!-- <h2>All</h2> -->
-                <div class="imgContent container-fluid">
-                    <div id="galleryAll"></div>
-                </div>
+            <div class="row stick">
+                <nav class="navbar navbar-link" role="navigation">
+
+
+                    <div id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a id="link1" class="link-active" href="#section1" data-toggle="collapse" role="button"
+                                    onclick="doCollapse(this)" aria-controls="section1">All</a>
+                            </li>
+                            <li>
+                                <a id="link2" href="#section2" data-toggle="collapse" role="button" onclick="doCollapse(this)"
+                                    aria-controls="section2">Sports</a>
+                            </li>
+                            <li>
+                                <a id="link3" href="#section3" data-toggle="collapse" role="button" onclick="doCollapse(this)"
+                                    aria-controls="section3">Gatherings</a>
+                            </li>
+                            <li>
+                                <a id="link4" href="#section4" data-toggle="collapse" role="button" onclick="doCollapse(this)"
+                                    aria-controls="section4">Celebrations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
 
-            <div id="section2" class="collapse container-fluid">
-                <!-- <h2>Sports</h2> -->
-                <div class="imgContent container-fluid">
-                    <div id="gallerySports"></div>
-                </div>
-            </div>
+            <div class="row">
 
-            <div id="section3" class="collapse container-fluid">
-                <!-- <h2>Gatherings</h2> -->
-                <div class="imgContent container-fluid">
-                    <div id="galleryGatherings"></div>
+                <div id="section1" class="collapse in container-fluid">
+                    <!-- <h2>All</h2> -->
+                    <div class="imgContent container-fluid">
+                        <div id="galleryAll"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div id="section4" class="collapse container-fluid">
-                <!-- <h2>Celebrations</h2> -->
-                <div class="imgContent container-fluid">
-                    <div id="galleryCelebrations"></div>
+                <div id="section2" class="collapse container-fluid">
+                    <!-- <h2>Sports</h2> -->
+                    <div class="imgContent container-fluid">
+                        <div id="gallerySports"></div>
+                    </div>
                 </div>
-            </div>
 
+                <div id="section3" class="collapse container-fluid">
+                    <!-- <h2>Gatherings</h2> -->
+                    <div class="imgContent container-fluid">
+                        <div id="galleryGatherings"></div>
+                    </div>
+                </div>
+
+                <div id="section4" class="collapse container-fluid">
+                    <!-- <h2>Celebrations</h2> -->
+                    <div class="imgContent container-fluid">
+                        <div id="galleryCelebrations"></div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-</div>
-<div id="footer"></div>
+
+    <div id="footer"></div>
 
 </body>
 
