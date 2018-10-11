@@ -63,10 +63,47 @@ img {
 } */
 
 /* Index Carousel */
+#index-carousel .item{
+    height: 90vh;
+}
+
+#index-carousel .item-1 {
+    background: url('/img/nav-carousel/about-uni.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#index-carousel .item-2 {
+    background: url('/img/nav-carousel/library.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#index-carousel .item-3 {
+    background: url('/img/nav-carousel/carousel_gallery.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 576px) {
+    #index-carousel .item{
+        height: 50vh;
+    }
+}
+
+/* Index Carousel */
+
 #index-carousel {
     padding: 0;
     margin: 0;
 }
+
+
+/* Container width changes  */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 95vw;
+    }
+
+}
+/*  */
 
 /* NEWS SECTION */
 
@@ -110,7 +147,7 @@ img {
 }
 
 #news .big-image img {
-    min-height: 400px;
+    min-height: 350px;
 }
 
 /* #news .big-image .big-image-inner {
@@ -293,7 +330,7 @@ img {
     overflow: hidden;
     width: calc(25% - 20px);
     margin: 10px;
-    min-height: 38vw;
+    /* min-height: 35vw; */
 
     z-index: 1;
     -webkit-box-shadow: 0px 1px 15px 1px rgba(105,105,105,0.8);
@@ -386,4 +423,27 @@ img {
     /* #events .events-container .event-column img {
         display: none;
     } */
+
+    #events .events-container .content{
+        padding: 10px 0 10px 0; 
+        margin-top: -5rem;
+    }
+
+    #events .events-container .content p{
+        margin: 0;
+        padding-bottom: 5px; 
+        font-size: 1.1rem;
+    }
+
+    #events .events-container .content h3{
+        margin: 0;
+        font-size: 1.1rem;
+    }
+
+    #events .events-container .event-date {
+        font-size: 1.1rem;
+        padding: 1.1rem;
+        top: -2.85rem;
+    }
+
 }
