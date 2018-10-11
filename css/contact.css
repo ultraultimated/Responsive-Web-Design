@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #get-in-touch .get-in-touch-form-heading {
     color: #3D9970;
-    font-size: 5vh;
+    font-size: 4vh;
     padding: 0 5%;
 
 }
@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #get-in-touch .contact-heading {
     color: #3D9970;
+    font-size: 4vh;
 
 }
 
@@ -52,11 +53,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #get-in-touch .get-in-touch-form-heading-2 {
-    color: #3D9970;
-    font-size: 4vh;
+    color: black;
+    font-size: 3vh;
     padding: 0 5%;
 }
 
+#get-in-touch .btn-success{
+    color: white;
+    background-color: #3D9970;
+}
 #map {
     background: #f9f6ef;
 }
@@ -77,6 +82,8 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 80%;
 }
 
+
+
 @media (max-width: 991px) {
     #get-in-touch .bold-text {
         padding: 0 10%;
@@ -86,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
         height: 30vh;
     }
 
-    #get-in-touch .get-in-touch-form-heading {
+    #get-in-touch .get-in-touch-form-heading, #get-in-touch .contact-heading, #map .map-heading,  {
         font-size: 3vh;
     }
 
