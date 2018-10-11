@@ -7,9 +7,7 @@
     <list default="true" id="9c909c2a-6799-46a4-af49-38cc53613914" name="Default Changelist" comment="ABout us and footer commited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/gallerystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/gallerystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -230,27 +228,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="16" />
-          <entry key="html" value="19" />
+          <entry key="html" value="20" />
           <entry key="js" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="16" />
-          <entry key="HTML" value="19" />
+          <entry key="HTML" value="20" />
           <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="295" />
+          <entry key="css" value="349" />
           <entry key="html" value="289" />
           <entry key="js" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="295" />
+          <entry key="CSS" value="349" />
           <entry key="HTML" value="289" />
           <entry key="JavaScript" value="44" />
         </counts>
@@ -262,8 +260,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/gallerystyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="182" column="54" selection-start-line="182" selection-start-column="54" selection-end-line="182" selection-end-column="54" />
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -277,6 +275,15 @@
                 <element signature="n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -530,7 +537,7 @@
       <workItem from="1539155663297" duration="1590000" />
       <workItem from="1539167488231" duration="2050000" />
       <workItem from="1539170608770" duration="3478000" />
-      <workItem from="1539230811895" duration="3956000" />
+      <workItem from="1539230811895" duration="5509000" />
     </task>
     <task id="LOCAL-00001" summary="ABout us and footer commited">
       <created>1538507613329</created>
@@ -550,7 +557,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105518000" />
+    <option name="totallyTimeSpent" value="107071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -752,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/login-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -812,10 +812,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/gallerystyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="182" column="54" selection-start-line="182" selection-start-column="54" selection-end-line="182" selection-end-column="54" />
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
