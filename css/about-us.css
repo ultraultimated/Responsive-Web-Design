@@ -7,18 +7,18 @@ h1 {
     font-weight: 700 !important;
 }
 
-.container-fluid {
+#about-header .container-fluid {
     margin: 0;
     padding: 0;
 }
 
-.row {
+#about-header .row {
     margin: 0;
     padding: 0;
 
 }
 
-.header-image {
+#about-header .header-image {
     margin-bottom: 2%;
     width: 100%;
 }

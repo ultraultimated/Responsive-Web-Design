@@ -116,19 +116,11 @@
 
     #register > .container-fluid {
 
-        /* left: 10%; */
-        width: 80%; 
+        width: 80%;
         left: 0;
         right: 0;   
     }
 
-    #register {
-        /* height: auto; */
-    }
+
 }
 
-@media (max-width: 1440px) {
-    #register {
-        /* height: auto; */
-    }
-}
