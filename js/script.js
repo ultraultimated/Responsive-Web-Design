@@ -134,6 +134,9 @@ function validateEmail(email) {
 
 }
 
+function login_success() {
+    window.alert("You have been logged in successfully!");
+}
 //login ends
 
 //register
@@ -166,6 +169,10 @@ function validateForm() {
     response = (password === confirmPassword) && (mobileNumber.length === 10);
     console.log(response);
     return response;
+}
+
+function register() {
+    window.alert("You have been registered successfully!");
 }
 
 //register ends

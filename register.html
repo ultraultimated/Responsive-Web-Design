@@ -33,7 +33,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div class="form-wrap">
                     <h1 class = "form-heading">Register</h1>
-                    <form role="form"  method="post" id="login-form" autocomplete="off" name="registrationForm">
+                    <form role="form"  method="post" id="login-form" autocomplete="off" name="registrationForm" onsubmit=register()>
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
@@ -67,6 +67,7 @@
                         </div>
 
                         <input type="submit" id="btn-login" class="btn btn-custom btn-lg btn-block" value="Register" onclick="return validateForm()">
+
                     </form>
                     <hr>
                 </div>
