@@ -9,20 +9,20 @@
 
 .panel-footer {
     background-color: #1fb58a;
-    height: auto;
-    color: white;
     border-radius: 5px;
+    color: white;
     font-size: 1.5vh;
+    height: auto;
 }
 
 .panel-footer .row {
-    margin-top: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .panel-footer a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 .panel-footer div > a:hover{
